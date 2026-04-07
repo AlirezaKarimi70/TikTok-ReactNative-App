@@ -45,6 +45,23 @@
           "supportsBackgroundPlayback": true,
           "supportsPictureInPicture": true
         }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow TikTok to access your camera",
+          "microphonePermission": "Allow TikTok to access your microphone",
+          "recordAudioAndroid": true,
+          "barcodeScannerEnabled": true
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow TikTok to access your photos",
+          "cameraPermission": "Allow TikTok to access your camera",
+          "mediaLibraryPermission": "Allow TikTok to access your media library"
+        }
       ]
     ],
     "experiments": {
